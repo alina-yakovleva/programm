@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+/* International Programm */
+
+.international-program_title {
+  font-weight: 800;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #01348d;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+}
+
+/* Results-2021 */
+
+.results-2021 {
+  display: flex;
+  gap: 110px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.results-1_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #01348d;
+  margin-bottom: 23px;
+}
+
+.results-2_title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #01348d;
+  margin-bottom: 47px;
+}
+/* Indicators */
+
+.indicators {
+  margin-bottom: 35px;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: -0.05em;
+}
+.indicator span {
+  font-weight: 700;
+  color: #f2a428;
+}
+
+/* Russian Programm */
+
+.russian-programm {
+  margin-top: 48px;
+}
+
+.russian-programm_title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #01348d;
+  margin-bottom: 5px;
+}
+.results_exams-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: -0.02em;
+  color: #555555;
+  margin: 37px 0 36px 0;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 97px;
+}
+/* Items */
+
+.progress {
+  position: relative;
+  padding: 13.5px;
+  border-radius: 28px;
+  background: #e5e5e5;
+}
+
+.progress_text {
+  position: relative;
+  z-index: 1;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+}
+
+.progress_line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  border-radius: 28px;
+}
+
+.blue {
+  background-color: #01348d;
+}
+
+.yellow {
+  background-color: #f2a428;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 256px 256px;
+  grid-row-gap: 19px;
+  grid-column-gap: 59px;
+  grid-template-rows: repeat(3, 100px);
+}
+
+.item_title {
+  font-weight: 400;
+  font-size: 24px;
+
+  letter-spacing: -0.04em;
+  color: #555555;
+
+  margin-bottom: 10px;
+}
+
+/* Statistics */
+.statistics_title {
+  margin-top: 39px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #555555;
+}
+
+.statistic_diagram {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.diagram {
+  margin-top: 36px;
+}
+
+/* Universities */
+.universities {
+  margin-top: 100px;
+  margin-left: 26px;
+  display: flex;
+  gap: 37px;
+  flex-wrap: wrap;
+}
+.universities-column-1 {
+  display: flex;
+
+  flex-direction: column;
+  gap: 20px;
+}
+.universities-column-2 {
+  display: flex;
+  max-width: 227px;
+  flex-direction: column;
+  gap: 20px;
+}
+.university {
+  display: flex;
+  gap: 8px;
+  position: relative;
+}
+.university_img {
+  position: relative;
+  width: 64px;
+  height: 36.32px;
+}
+
+.university-name {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+
+  letter-spacing: -0.04em;
+}
+.line {
+  display: flex;
+}
+.percent {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+
+  color: white;
+
+  width: 20px;
+  top: 20px;
+  left: 30px;
+}
+/* Footer */
+.footer {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.achivments {
+  max-width: 819px;
+}
+.achivment_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  color: #555555;
+  margin-top: 37px;
+  letter-spacing: -0.02em;
+}
+
+.medal {
+  display: flex;
+  gap: 50px;
+  margin-top: 71px;
+  align-items: center;
+}
+.certificate {
+  display: flex;
+  margin-top: 25px;
+  gap: 36px;
+  align-items: center;
+}
+.text-1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+
+  letter-spacing: -0.04em;
+
+  color: #555555;
+  margin-top: 5px;
+  letter-spacing: -0.05em;
+}
+.text-2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+
+  letter-spacing: -0.05em;
+
+  color: #555555;
+}
+@media (max-width: 1600px) {
+  .wrapper {
+    padding: 30px;
+  }
+}
+@media (max-width: 1552px) {
+  .international-program_title {
+    text-align: center;
+  }
+  .russian-programm_title {
+    text-align: center;
+  }
+  .statistics_title {
+    text-align: center;
+  }
+  .achivment_title {
+    text-align: center;
+  }
+  .shedule-1 {
+    max-width: 520px;
+  }
+}
+@media (max-width: 650px) {
+  .items {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 524px) {
+  .shedule-1 {
+    max-width: 384px;
+  }
+  .international-program_title,
+  .russian-programm_title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 524px) {
+  .text-1,
+  .text-2 {
+    font-size: 20px;
+  }
+
+  .shedule-1 {
+    max-width: 350px;
+  }
+}
